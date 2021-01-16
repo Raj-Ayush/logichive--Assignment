@@ -1,0 +1,69 @@
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+header {
+  font-size: 30px;
+  text-align: center;
+  padding-top: 15px;
+  
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.list{
+    display: flex;
+    position: relative;
+    width: 90%;
+    height: 100%;
+    margin: 50px auto;
+    padding: 40px 0 0;
+    box-sizing: border-box;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card{
+  position: relative;
+  padding-left: 20px;
+  padding-top: 50px;
+  width:350px;
+  
+
+}
+.content{
+  padding-top:30px;
+}
+.content h1{
+  font-size: 20px;
+  font-weight: lighter;
+  text-align: left;
+  border-bottom: solid 2px yellow;
+  padding-bottom: 5px;
+}
+.subcontent{
+  font-family:'Times New Roman', Times, serif;
+  color: #a8b4ae;
+  text-align: left;
+  
+}
+.card-img{
+  width: 350px;
+  height: 200px;
+  
+}
+.card-img img{
+  width: 300px;
+  height: 200px;
+}
